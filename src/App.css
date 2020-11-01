@@ -1,0 +1,46 @@
+body {
+  font-family: monospace;
+  color: black;
+  background-color: #ececec;
+  margin-right: 10px;
+  margin-left: 10px;
+  /*margin-bottom: 0px;*/
+  margin-top: 15px;
+}
+
+header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  position: absolute;
+  list-style-type: none;
+  /*padding-bottom: 1000px;*/
+  padding-top: 0.5px;
+  padding-left: 1100px;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  border: 0.1px solid black;
+  color: black;
+  padding: 5px 20px;
+}
+
+.Title1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 120px;
+}
+.Title1 h1 {
+  font-size: 130%;
+  color: #080808;
+}
